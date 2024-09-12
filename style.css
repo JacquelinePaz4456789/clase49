@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fondo negro para toda la página */
+}
+
+#titulo {
+    color: #fff;
+    height: auto; 
+    width: 100%; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 2px 2px 4px rgba(110, 110, 110, 0.2);
+    padding: 20px; 
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    text-align: center;
+    font-size: 60px; /* Tamaño ajustado del texto */
+    margin: 0; /* Elimina margen predeterminado */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar las imágenes */
+    padding: 10px;
+}
+
+.card {
+    align-items: stretch;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(139, 139, 139, 0.2);
+    border: none;
+    background-color: #000000; /* Fondo oscuro para las tarjetas */
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
